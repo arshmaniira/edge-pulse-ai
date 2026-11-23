@@ -61,3 +61,5 @@ def offline_dashboard():
 @app.post("/v1/generate")
 def generate_offline(request: QueryRequest):
     return engine.generate(request.prompt)
+
+
